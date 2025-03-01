@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'ABeeZee', sans-serif;
+    background-color: whitesmoke;
+    color: black;
+    margin: 0;
+    line-height: 1.5;
+}
+
+header {
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(to right, #76F2F6, white);
+    font-family: 'Alumni Sans';
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.header_links {
+    margin-right: 1rem;
+    font-family: 'Alumni Sans';
+    display: flex;
+    list-style-type: none;
+}
+
+.header_links li{
+    margin: 0 1rem;
+}
+
+.header_links a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+.header_links :hover{
+    color: #76F2F6;
+    transition: color 0.3s ease-in-out;
+}
+
+.hero_image {
+    
+}
